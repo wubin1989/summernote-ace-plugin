@@ -1,1 +1,1 @@
-# summernote-add-ace
+# summernote-ace-plugin
