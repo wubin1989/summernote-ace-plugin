@@ -4,12 +4,9 @@ var gulp = require('gulp');
 var rename = require('gulp-rename');
 var uglify = require('gulp-uglify');
 
-var DEST = '/';
-
 gulp.task('default', function() {
   return gulp.src('summernote-ace-plugin.js')
-    .pipe(gulp.dest(DEST))
     .pipe(uglify())
     .pipe(rename({ extname: '.min.js' }))
-    .pipe(gulp.dest(DEST));
+    .pipe(gulp.dest('dist'));
 });
