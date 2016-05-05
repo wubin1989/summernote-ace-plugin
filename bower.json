@@ -3,6 +3,9 @@
   "homepage": "https://github.com/wubin1989/summernote-ace-plugin",
   "description": "",
   "main": "",
+  "authors": [
+    "Will Wu <328454505@qq.com>"
+  ],
   "license": "MIT",
   "ignore": [
     "**/.*",
